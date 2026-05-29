@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contacta con D' Sol - Fotografía y Video. Solicita cotizaciones y reserva tus citas.">
+  <title>Contacto - D' Sol</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="logo">
+        D' Sol 🌻
+        <span class="logo-sub">Fotografía &amp; Video</span>
+      </a>
+      <nav class="nav">
+        <a href="index.html">Inicio</a>
+        <a href="galeria.html">Galería</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="testimoniales.html">Testimonios</a>
+        <a href="contacto.html" class="active">Contacto</a>
+      </nav>
+      <button class="hamburger" aria-label="Menú">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== PAGE BANNER ===== -->
+  <section class="page-banner">
+    <div class="container">
+      <h1>🌻 Contacto</h1>
+      <div class="section-divider"></div>
+      <p>Estamos aquí para ayudarte. Cuéntanos sobre tu proyecto y brillemos juntos. 🌻</p>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT SECTION ===== -->
+  <section class="section">
+    <div class="container">
+
+      <div class="contact-wrapper">
+        <!-- Contact Info -->
+        <div class="contact-info">
+          <h3>🌻 Información de contacto</h3>
+
+          <div class="contact-info-item">
+            <div class="icon"><i class="fas fa-envelope"></i></div>
+            <div class="info">
+              <h4>Correo Electrónico</h4>
+              <p>quispeccaltadeysi@gmail.com</p>
+            </div>
+          </div>
+
+          <div class="contact-info-item">
+            <div class="icon"><i class="fab fa-whatsapp"></i></div>
+            <div class="info">
+              <h4>WhatsApp</h4>
+              <p>+51 974 904 717</p>
+            </div>
+          </div>
+
+          <div class="contact-info-item">
+            <div class="icon"><i class="fas fa-clock"></i></div>
+            <div class="info">
+              <h4>Horario de atención</h4>
+              <p>Lun - Sáb: 9:00 AM - 8:00 PM</p>
+            </div>
+          </div>
+
+          <div class="contact-info-item">
+            <div class="icon"><i class="fas fa-globe"></i></div>
+            <div class="info">
+              <h4>Ubicación</h4>
+              <p>Disponible para sesiones en estudio o exteriores</p>
+            </div>
+          </div>
+
+          <div class="contact-social">
+            <a href="https://www.facebook.com/profile.php?id=61590328746285" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/dsol_studio.fotografiayvideo" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.tiktok.com/@la_bitacora_de_sole" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+            <a href="https://wa.me/51974904717" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div>
+          <h3 style="font-family: var(--font-heading); font-size: 1.5rem; color: var(--dark); margin-bottom: 25px;">🌻 Envíanos un mensaje</h3>
+          <form data-formspree="REEMPLAZAR_CON_TU_ID">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Nombre completo *</label>
+                <input type="text" id="name" name="name" required placeholder="Tu nombre">
+              </div>
+              <div class="form-group">
+                <label for="email">Correo electrónico *</label>
+                <input type="email" id="email" name="email" required placeholder="tu@correo.com">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="phone">Teléfono</label>
+                <input type="tel" id="phone" name="phone" placeholder="+51 999 999 999">
+              </div>
+              <div class="form-group">
+                <label for="subject">Asunto *</label>
+                <select id="subject" name="subject" required>
+                  <option value="">Selecciona un asunto</option>
+                  <option value="cotizacion">Solicitar cotización</option>
+                  <option value="informacion">Información general</option>
+                  <option value="sesion">Agendar sesión</option>
+                  <option value="otro">Otro</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="message">Mensaje *</label>
+              <textarea id="message" name="message" required placeholder="Cuéntanos sobre tu proyecto..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary"><i class="fas fa-paper-plane"></i> Enviar mensaje</button>
+          </form>
+
+          <!-- Booking Form -->
+          <div class="booking-form">
+            <h3>🌻 Reserva tu cita</h3>
+            <p class="form-subtitle">Selecciona la fecha y el tipo de sesión que deseas y te confirmaremos la disponibilidad. ¡Como un girasol, encuentra tu momento perfecto!</p>
+            <form data-formspree="REEMPLAZAR_CON_TU_ID">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="b-name">Nombre completo *</label>
+                  <input type="text" id="b-name" name="name" required placeholder="Tu nombre">
+                </div>
+                <div class="form-group">
+                  <label for="b-email">Correo electrónico *</label>
+                  <input type="email" id="b-email" name="email" required placeholder="tu@correo.com">
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="b-phone">Teléfono *</label>
+                  <input type="tel" id="b-phone" name="phone" required placeholder="+51 999 999 999">
+                </div>
+                <div class="form-group">
+                  <label for="b-type">Tipo de sesión *</label>
+                  <select id="b-type" name="session_type" required>
+                    <option value="">Selecciona tipo</option>
+                    <option value="retrato">Sesión de Retrato</option>
+                    <option value="evento">Cobertura de Evento</option>
+                    <option value="video">Producción Audiovisual</option>
+                    <option value="producto">Fotografía de Producto</option>
+                    <option value="corporativo">Sesión Corporativa</option>
+                    <option value="otro">Otro</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="b-date">Fecha preferida *</label>
+                  <input type="date" id="b-date" name="date" required>
+                </div>
+                <div class="form-group">
+                  <label for="b-time">Horario preferido</label>
+                  <select id="b-time" name="time">
+                    <option value="">Selecciona horario</option>
+                    <option value="manana">Mañana (9:00 - 12:00)</option>
+                    <option value="mediodia">Mediodía (12:00 - 15:00)</option>
+                    <option value="tarde">Tarde (15:00 - 18:00)</option>
+                    <option value="noche">Noche (18:00 - 20:00)</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="b-notes">Notas adicionales</label>
+                <textarea id="b-notes" name="notes" placeholder="Cuéntanos más detalles sobre tu sesión..."></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary"><i class="fas fa-calendar-check"></i> Solicitar reserva</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            D' Sol 🌻
+            <span class="logo-sub">Fotografía &amp; Video</span>
+          </a>
+          <p>Capturamos la esencia de cada momento con pasión, creatividad y calidad profesional.</p>
+          <div class="footer-social">
+            <a href="https://www.facebook.com/profile.php?id=61590328746285" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/dsol_studio.fotografiayvideo" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.tiktok.com/@la_bitacora_de_sole" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+            <a href="https://wa.me/51974904717" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+        <div>
+          <h4>Enlaces</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="galeria.html">Galería</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="testimoniales.html">Testimonios</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Servicios</h4>
+          <ul class="footer-links">
+            <li><a href="servicios.html">Sesiones de Retrato</a></li>
+            <li><a href="servicios.html">Cobertura de Eventos</a></li>
+            <li><a href="servicios.html">Producción Audiovisual</a></li>
+            <li><a href="servicios.html">Fotografía Comercial</a></li>
+          </ul>
+        </div>
+        <div class="footer-newsletter">
+          <h4>Newsletter</h4>
+          <p>Recibe ofertas y novedades directamente en tu correo.</p>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Tu correo electrónico" required>
+            <button type="submit"><i class="fas fa-arrow-right"></i></button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 D' Sol - Fotografía y Video. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== WHATSAPP FLOATING BUTTON ===== -->
+  <a href="https://wa.me/51974904717" target="_blank" class="whatsapp-float" aria-label="WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
