@@ -240,11 +240,21 @@ ul { list-style: none; }
 }
 
 .logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
   font-family: var(--font-heading);
   font-size: 1.8rem;
   font-weight: 700;
   color: var(--gold);
   letter-spacing: 2px;
+}
+
+.logo-img {
+  height: 50px;
+  width: auto;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .logo span {
@@ -386,6 +396,14 @@ ul { list-style: none; }
   letter-spacing: 4px;
   margin-bottom: 5px;
   animation: fadeInUp 1s ease;
+}
+
+.hero-logo {
+  display: block;
+  max-width: 280px;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 50%;
 }
 
 .hero-content .hero-sub {
@@ -803,7 +821,7 @@ ul { list-style: none; }
 }
 
 .service-detailed-card.featured::before {
-  content: '🌻 RECOMENDADO';
+  content: 'RECOMENDADO';
   position: absolute;
   top: 15px;
   right: -30px;
